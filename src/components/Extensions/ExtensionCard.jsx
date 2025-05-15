@@ -49,7 +49,7 @@ const ExtensionCard = () => {
     maxHeight:"70px"
   }}>
         <nav className="navbar"   style={{
-       backgroundColor: darkMode ? "#483e4b" : "#ffffff",
+       backgroundColor: darkMode ? "#4a4a54" : "#ffffff",
           padding: "0.75rem 1rem",
     }} >
           <div className="container">
@@ -84,8 +84,8 @@ const ExtensionCard = () => {
               key={ext.id}
               className="card"
            style={{
-              backgroundColor: darkMode ? "#483e4b" : "#f8f9fa",
-              color: darkMode ? "#ffffff" : "#483e4b",
+              backgroundColor: darkMode ? "#4a4a54" : "#f8f9fa",
+              color: darkMode ? "#ffffff" : "#4a4a54",
               border:"1px solid black",
             }}
           >
