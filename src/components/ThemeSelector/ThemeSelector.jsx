@@ -5,7 +5,7 @@ const ThemeSelector = ({darkMode,setdarkMode}) => {
             setdarkMode(prev => !prev);
           };
           useEffect(() => {
-            document.body.style.backgroundColor = darkMode ? '#483e4b' : '#ffffff';
+            document.body.style.backgroundColor = darkMode ? '#0e0e0f' : '#ffffff';
           }, [darkMode]);
   return (
     <div className='form-switch mb-3 '>
